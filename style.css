@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+  color: #0d1349;
+  background: rgb(242, 243, 245);
+}
+body .container header nav {
+  width: 100%;
+}
+body .container header nav .navbar {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  padding: 15px;
+}
+body .container header nav .logo {
+  cursor: pointer;
+}
+body .container header nav .navbar-list {
+  width: 50%;
+}
+body .container header nav .navbar-list ul {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+body .container header nav .navbar-list ul li {
+  list-style: none;
+}
+body .container header nav .navbar-list ul li a {
+  text-decoration: none;
+  color: #0d1349;
+  transition: all 0.5s ease;
+}
+body .container header nav .navbar-list ul li a:hover {
+  color: #fff;
+  background: #0d1349;
+  padding: 5px;
+  border-radius: 5px;
+}
+body .container header nav .navbar-button button {
+  margin-left: 10px;
+  padding: 10px;
+  background: rgb(238, 96, 30);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+body .container header nav .navbar-button button:hover {
+  background: rgb(173, 67, 18);
+}
+body .container main {
+  width: 90%;
+  margin: 30px auto;
+}
+body .container main .main-container {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+body .container main .main-container .main-text {
+  width: 50%;
+}
+body .container main .main-container .main-text h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+body .container main .main-container .main-text .text-input {
+  margin-top: 5%;
+  width: 100%;
+}
+body .container main .main-container .main-text .text-input input {
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  height: 5px;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 10px gray;
+}
+body .container main .main-container .main-text .text-input button {
+  background: rgb(238, 96, 30);
+  padding: 10px;
+  width: 20%;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+body .container main .main-container .main-text .text-input button:hover {
+  background: rgb(173, 67, 18);
+}
+body .container main .main-container .main-text .text-minor {
+  margin-top: 10%;
+}
+body .container main .main-container .image {
+  width: 50%;
+  border-radius: 10px;
+}
+body .container main .main-container .image img {
+  width: 100%;
+}
+body footer {
+  background: #0d1349;
+  color: #fff;
+}
+body footer .footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  font-size: 15px;
+}
+body footer .footer .footer-1 {
+  width: 50%;
+}
+body footer .footer .footer-2 ul {
+  display: flex;
+}
+body footer .footer .footer-2 ul li {
+  list-style: none;
+  padding: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
